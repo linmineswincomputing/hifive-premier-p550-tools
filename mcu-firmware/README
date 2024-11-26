@@ -10,13 +10,22 @@ Release Notes
 ===============================================================================
 
 -------------------------------------------------------------------------------
-Release Version: 2.6
-MD5:963867075cb31ae14ab8f9e7b71939db
+Release Version: 2.7
+MD5:c1d4c19ace5f7cd93b46d5d8e7459f3b
 -------------------------------------------------------------------------------
 
 -----------+
 Change Log |
 -----------+
+
+-------------------------------------------------------------------------------
+Version: 2.7, 2024-11-26
+MD5:c1d4c19ace5f7cd93b46d5d8e7459f3b
+-------------------------------------------------------------------------------
+TR: Bug fix for trace32 jtag.
+TR: Bug fix for telnet console. The telnet console task exited unexpectly and
+    uncorrectly if there was a binding error casued by the port scanning
+    through nmap. This caused the mcu to crash.
 
 -------------------------------------------------------------------------------
 Version: 2.6, 2024-09-05
